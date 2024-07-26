@@ -119,7 +119,7 @@ public class UsersManagementService {
             return reqRes;
         } catch (Exception e) {
             reqRes.setStatusCode(500);
-            reqRes.setMessage("Error occurred: " + e.getMessage());
+            reqRes.setMessage("Error ocurrido : " + e.getMessage());
             return reqRes;
         }
     }
